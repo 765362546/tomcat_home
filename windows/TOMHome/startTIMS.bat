@@ -1,11 +1,20 @@
 @echo off
 setlocal
+rem 清空默认的环境变量，防止产生干扰
+set PATH=
+SET JAVA_HOME=
+SET JRE_HOME=
+set CATALINA_HOME=
+set CATALINA_BASE=
+
 set CUR_DIR=%~dp0
-set JRE_HOME=%CUR_DIR%\jre7_win
-set CATALINA_HOME=%CUR_DIR%\apache-tomcat-7.0.0
+set JAVA_HOME=%CUR_DIR%\jdk
+rem set JRE_HOME=%CUR_DIR%\jre
+set CATALINA_HOME=%CUR_DIR%\apache-tomcat-xx
+
 set TITLE=%CATALINA_HOME%
  
-rem 0 测试环境  1 开发环境 
+rem 0 测试环境  1 开发环境     配置为1时，下面的JVM参数会生效，注意根据实际情况修改这些参数
 set dev=0
 
 REM 设置生产环境java运行参数，请根据实际运行环境设置

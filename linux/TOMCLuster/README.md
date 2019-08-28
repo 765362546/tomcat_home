@@ -1,0 +1,2 @@
+nginx+tomcat集群
+通过nginx反向代理tomcat节点

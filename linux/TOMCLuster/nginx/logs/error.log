@@ -1,0 +1,27 @@
+2016/08/09 12:22:32 [notice] 12517#0: signal process started
+2016/08/09 12:28:44 [emerg] 16174#0: unknown directive "stream" in .//conf/nginx.conf:15
+2016/08/09 12:32:23 [notice] 18755#0: signal process started
+2016/08/09 12:32:49 [notice] 18769#0: signal process started
+2016/08/09 12:38:33 [emerg] 18875#0: unknown directive "aupstream" in .//conf/vhost/proxyWeb.conf:1
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:42:08 [emerg] 18963#0: still could not bind()
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:28390 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: bind() to 0.0.0.0:8199 failed (98: Address already in use)
+2016/08/09 12:48:34 [emerg] 19015#0: still could not bind()

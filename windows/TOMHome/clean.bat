@@ -1,9 +1,9 @@
 @echo off
 setlocal 
-echo "Çå³ıtomcatÈÕÖ¾ºÍ»º´æ"
+echo "æ¸…é™¤tomcatæ—¥å¿—å’Œç¼“å­˜"
 set CUR_DIR=%~dp0
 for /d %%i in (*tomcat*) do (
-ECHO ÇåÀí %CUR_DIR%%%i
+ECHO æ¸…ç† %CUR_DIR%%%i
 del /q %CUR_DIR%%%i\logs\*
 rd /s/q %CUR_DIR%%%i\work\Catalina\localhost\
 del /q %CUR_DIR%%%i\conf\Catalina\localhost\*

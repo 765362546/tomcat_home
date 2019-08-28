@@ -2,9 +2,8 @@
 echo "停止TIMS..."
 CUR_DIR=$PWD
 
-# 清除系统自带的JAVA环境变量
-export -n JAVA_HOME
-export JRE_HOME=$CUR_DIR/jre7_linux
+# 指定CATALINA_HOME路径，即tomcat路径
+
 export CATALINA_HOME=$CUR_DIR/apache-tomcat-7.0.0
 
 
